@@ -11,7 +11,8 @@ You must add some libraries inside the ``TOMCAT_HOME/lib`` folder:
 
    -  geronimo-commonj_1.1_spec-1.0.jar,
    -  concurrent.jar,
-   -  foo-commonj.jar.
+   -  foo-commonj.jar,
+   -  hsqldb1_8_0_2.jar.
    
 You can download here **TODO**
 
