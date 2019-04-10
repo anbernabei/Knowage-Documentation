@@ -17,6 +17,7 @@ The following Operating Systems (OS) are those ones which suit with Knowage plat
    |    **Operating System**   | **Version** |
    +---------------------------+-------------+
    |    CentOS                 | 6 64-bit    |
+   |    CentOS                 | 7 64-bit    |
    +---------------------------+-------------+
    |    Windows                | 7           |
    +---------------------------+-------------+
