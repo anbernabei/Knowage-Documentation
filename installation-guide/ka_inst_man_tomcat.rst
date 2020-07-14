@@ -183,7 +183,8 @@ It is recommended to increase the memory dimension used by the application serve
 .. code-block:: bash
 	:linenos:
 
-	export JAVA_OPTS="$JAVA_OPTS -Xms1024m -Xmx2048m -XX:MaxPermSize=512m"
+	 <Connector address="0.0.0.0" port="8009" protocol="AJP/1.3" maxPostSize="2097152000" redirectPort="8443" URIEncoding="UTF-8" />
+
 
 
 **[WIN]** Insert at the beginning of the ``TOMCAT_HOME/bin/setenv.bat`` file this command:
@@ -192,3 +193,12 @@ It is recommended to increase the memory dimension used by the application serve
 	:linenos:
 
 	set JAVA_OPTS= %JAVA_OPTS% -Xms1024m Xmx2048m -XX:MaxPermSize=512m
+
+Advanced Connecor settings
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. important::
+         It is highly recommend to add  URIEncoding="UTF-8" attribute to server.xml file connector tags in order to avoid special characters issues.
+
+.. code-block:: bash
+	:linenos:
